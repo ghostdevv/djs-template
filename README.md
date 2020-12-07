@@ -24,6 +24,6 @@ The .env file will include a NODE_ENV variable, this should be set to either `pr
     ```
 
 - ### Start
-    ```start
+    ```bash
     npm run start
     ```
