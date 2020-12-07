@@ -19,6 +19,7 @@ If the cp command doesn't work just manually make the .env file based on the exa
 The .env file will include a NODE_ENV variable, this should be set to either `production` or `development`, the dev command will overwrite this.
 
 - ### Development
+    Full development mode not implimented just yet
     ```bash
     npm run dev
     ```
