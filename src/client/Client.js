@@ -82,7 +82,7 @@ class Client extends DiscordClient {
             const args = message.content.slice(command.length).split(' ');
 
             const foundCommand = this.commands.get(command);
-            if (foundCommand) foundCommand.run(client, message, args);
+            if (foundCommand) foundCommand.run(this, message, args);
         });
     }
 }
