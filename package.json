@@ -3,7 +3,8 @@
   "version": "3.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "invite": "node scripts/invite.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
