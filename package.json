@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "invite": "node scripts/invite.js"
+    "invite": "node scripts/invite.js --admin"
   },
   "dependencies": {
     "chalk": "^4.1.0",
