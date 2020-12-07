@@ -27,3 +27,9 @@ The .env file will include a NODE_ENV variable, this should be set to either `pr
     ```bash
     npm run start
     ```
+
+- ### Invite
+    This will generate a invite for you
+    ```bash
+    npm run invite
+    ```
